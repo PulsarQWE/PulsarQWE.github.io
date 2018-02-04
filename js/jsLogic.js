@@ -1,0 +1,1 @@
+Ext.define('Site.js.jslLosic',{});
