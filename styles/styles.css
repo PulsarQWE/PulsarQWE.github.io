@@ -1,3 +1,27 @@
-.header{
- color: red;
+.style-for-description {
+    margin-left: 20px;
+}
+
+.style-for-main-container {
+    background: greenyellow;
+}
+
+.style-for-container-with-image {
+    align-items: flex-end;
+}
+
+.sign {
+    float: right;
+    border: 1px solid #333;
+    padding: 7px;
+    margin: 10px 0 5px 5px;
+    background: #f0f0f0;
+}
+
+.sign figcaption {
+    margin: 0 auto 5px;
+}
+
+.contact-container {
+    margin-top: 371px;
 }
