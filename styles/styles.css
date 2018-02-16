@@ -1,33 +1,62 @@
+/*стиль для описания характеристик прибора*/
 .style-for-description {
     margin-left: 20px;
-    display: inline;
+    background: bisque;
 }
-
+/*стиль для основного контейнера*/
 .style-for-main-container {
     background: greenyellow;
-    width: 600px;
-    margin-left: 200px;
 }
-.style-for-inside-div{
+/*стиль, позволяющий рисовать контейнеры в строку*/
+.style-for-inside-div {
     display: inline;
 }
 
+/*стиль для кнопок в тулбаре*/
+a.toolbarButtons {
+    color: #000;
+    text-decoration: none;
+    user-select: none;
+    padding: 4px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+a.toolbarButtons:hover {
+    background: #00FF00;
+}
+
+a.toolbarButtons:active {
+    background: #00FFFF;
+}
+/*стиль для контейнера с картинкой*/
 .style-for-container-with-image {
     align-items: flex-end;
 }
-
+/*стили для картинки*/
 .sign {
     float: right;
     border: 1px solid #333;
     padding: 7px;
     margin: 10px 0 5px 5px;
-    background: #f0f0f0;
+    background: #AFEEEE;
+    display: inline;
 }
 
-.sign figcaption {
+.sign figcaption{
     margin: 0 auto 5px;
+    font-size: 20px;
+    font-weight: bold;
 }
 
-body{
+/*цвет фона*/
+body {
     background: #E0FFFF;
+}
+
+.style-for-contacts{
+    font-size: 18px;
+    font-weight: bold;
 }

@@ -3,24 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
-    <script type="text/javascript" src="js/jsLogic.js"></script>
+    <script type="text/javascript" src="js/mainLogic.js"></script>
     <link rel="shortcut icon" href="favicon.ico">
     <title>Датчики отрытого пламени</title>
 </head>
 <body>
 <h1 align="center" class="title-header-style">Датчики открытого пламени</h1>
 <div align="center">
-    <p class="style-for-inside-div"><input type="button" value="Основные сведения" onclick="onClickMainInformationButton()"></p>
-    <p class="style-for-inside-div"><input type="button" value="Контакты" onclick="onClickContactButton()"></p>
+    <a href="index.html" class="toolbarButtons" >Основные сведения</a>
+    <a href="contactPage.html" class="toolbarButtons">Контакты</a>
 </div>
-<div align="center" class="style-for-main-container">Основной контейнер для описания нашего датчика (здесь будет размещена информация о нашем датчике)
-    <p align="left" class="style-for-description">В этот зеленый прямоугольник можно засунуть всю необходимую информацию</p>
-    <div class="style-for-inside-div" >Первый контейнер в строку</div>
-    <div class="style-for-inside-div">Второй контейнер в строку</div>
+<div align="center" class="style-for-main-container" style="margin-top: 20px">Основной контейнер для описания нашего датчика (здесь будет размещена информация о нашем датчике)
+    <p align="left" class="style-for-description">В этот бежевый прямоугольник можно засунуть всю необходимую информацию</p>
     <figure class="sign">
-        <p><img src="гвоздь.jpg" alt="Гвоздь" align="center"></p>
-        <figcaption>Здесь должна быть картинка нашего прибора, но пока что пусть тут будет гвоздь</figcaption>
+        <p><img src="коробка.jpg" width="222"  height="222" align="center"></p>
+        <figcaption>Фотография нашего датчика</figcaption>
     </figure>
 </div>
+<div id="qooi-counter" style="position: absolute; margin-top: 600px; margin-left: 1820px">
+    <a href="http://qooi.ru/" title="Бесплатный счетчик посещений на сайт">
+        <img src="http://qooi.ru/counter/standard/009.png" alt="Счетчик посещаемости и статистика сайта">
+        <div id="qooi-counter-visits"></div>
+        <div id="qooi-counter-views"></div>
+    </a>
+</div>
+<script type="text/javascript" src="http://qooi.ru/counter.js"></script>
 </body>
 </html>
