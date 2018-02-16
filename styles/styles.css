@@ -1,9 +1,15 @@
 .style-for-description {
     margin-left: 20px;
+    display: inline;
 }
 
 .style-for-main-container {
     background: greenyellow;
+    width: 600px;
+    margin-left: 200px;
+}
+.style-for-inside-div{
+    display: inline;
 }
 
 .style-for-container-with-image {
@@ -22,6 +28,6 @@
     margin: 0 auto 5px;
 }
 
-.contact-container {
-    margin-top: 371px;
+body{
+    background: #E0FFFF;
 }
