@@ -60,3 +60,12 @@ body {
     font-size: 18px;
     font-weight: bold;
 }
+
+table{
+    background-color: #FFD;
+}
+td, tr{
+    border: 1px solid black;
+    font-family: Arial, "Times New Roman";
+    font-size: 20px;
+}
