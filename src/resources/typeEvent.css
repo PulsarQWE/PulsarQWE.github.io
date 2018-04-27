@@ -1,0 +1,149 @@
+.typeEventGrid.x-form-date-trigger {
+    background-image: url("../img/date-trigger.gif") !important;
+    border: 0 !important;
+    background-position: 0 50% !important;
+}
+
+
+.typeEventGrid .x-grid-cell {
+    border: 1px !important;
+}
+
+.typeEventGrid .x-form-text-default {
+    background-image: none !important;
+}
+
+.typeEventGrid .x-form-text {
+    font-size: 14px;
+    font-family: 'Arial' !important;
+}
+
+.typeEventGrid .x-form-text-default .x-tagfield-item-close {
+    margin: 1px 4px 0 0 !important;
+    width: 16px !important;
+    height: 16px !important;
+    background-image: url("../img/remove.png") !important;
+}
+
+
+.typeEventGrid .x-form-text-default .x-tagfield-item {
+    padding: 3px 25px 0 5px !important;
+    background-color: #ececec !important;
+    height: 18px !important;
+}
+
+.typeEventGrid .x-grid-cell {
+    vertical-align: middle;
+    height: 30px;
+    border-right: 1px solid #d8d8d8 !important;
+}
+
+.typeEventGrid .x-grid-cell-inner {
+    overflow: visible;
+    white-space: normal !important;
+    word-break: break-all;
+
+    font-family: "Segoe UI Обычный", "Segoe UI";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: normal;
+    height: auto;
+    line-height: normal;
+}
+
+.typeEventGrid .x-grid-item-focused .x-grid-cell-inner:before {
+    border: none !important;
+}
+
+.typeEventGrid .x-grid-group-title {
+    font-size: 14px;
+    color: #0f0f0f;
+    font-weight: bold;
+}
+
+.typeEventGrid .x-column-header-text-inner {
+    color: #333334 !important;
+
+    font-family: 'Segoe UI Полужирный', 'Segoe UI';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 16px;
+    text-align: left;
+}
+
+.typeEventGrid .x-grid-group-hd {
+    border: none;
+    background-color: #f5f5f6 !important;
+}
+
+.typeEventGrid .x-column-header-default {
+    background: #E4E4E4;
+}
+
+.typeEventGrid .x-grid-row:hover .x-grid-cell-inner-action-col {
+    background-image: url("../img/trash_black.png");
+    background-repeat: no-repeat;
+    color: black;
+    background-position: center;
+}
+
+.typeEventGrid .x-grid-item-alt {
+    background: #f2f2f2;
+}
+
+.typeEventGrid .x-column-header-text {
+    height: 40px;
+    background: #E4E4E4;
+}
+
+.typeEventGrid .x-column-header-inner {
+    background: #E4E4E4;
+}
+
+.typeEventGrid .x-column-header-inner-empty, .typeEventGrid .attachment-column .x-column-header-inner {
+    max-height: 48px;
+}
+
+.no-padding {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+}
+
+.typeEventGrid .x-column-header {
+    border-left: 1px solid #d8d8d8 !important;
+    border-right: none;
+    background: white;
+}
+
+.typeEventGrid .x-grid-row .x-grid-cell-selected, .typeEventGrid .x-grid-item-selected {
+    background: #6ea7db !important;
+}
+
+.typeEventGrid .x-grid-view {
+    border-right: 1px solid #d8d8d8 !important;
+    border-left: 1px solid #d8d8d8 !important;
+    overflow-x: hidden !important;
+}
+
+.typeEventGrid .x-column-header-first {
+    border-left: 1px solid #d8d8d8 !important;
+}
+
+.typeEventGrid .x-column-header-last {
+    border-right: 1px solid #d8d8d8 !important;
+}
+
+.typeEventGrid .x-column-header-inner {
+    max-height: 48px !important;
+}
+
+.info-label .x-form-item-label-inner,
+.info-label .x-form-empty-field-default,
+.info-label .x-form-text-default{
+    font-size: 14px;
+}
+
+.typeEventGrid .x-tree-icon-parent, .typeEventGrid .x-tree-icon-parent-expanded {
+    background-image: none;
+}
+

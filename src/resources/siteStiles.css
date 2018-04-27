@@ -1,0 +1,11 @@
+.header-label-style{
+    height: 60px;
+    width: 1920px;
+    right: auto;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    font-family: arial, serif;
+    margin: 30px auto auto auto;
+    font-weight: bold;
+}
