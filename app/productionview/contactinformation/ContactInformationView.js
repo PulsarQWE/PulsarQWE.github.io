@@ -105,7 +105,9 @@ Ext.define('DiplomSite.productionview.contactinformation.ContactInformationView'
         },
         {
             xtype: 'image',
-            src: 'src/images/map.png'
+            src: 'src/images/map.png',
+            height: 600,
+            margin: '10 10 10 10'
         }
     ]
 });

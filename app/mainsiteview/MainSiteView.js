@@ -34,6 +34,7 @@ Ext.define('DiplomSite.mainsiteview.MainSiteView',{
         },
         {
             xtype: 'container',
+            region: 'center',
             layout: {
                 type: 'vbox',
                 align: 'stretch'
