@@ -11,21 +11,31 @@ Ext.define('DiplomSite.productionview.lowcurrentmeter.LowCurrentMeterView', {
     },
     flex: 1,
     requires: [
-        'DiplomSite.productionview.lowcurrentmeter.LowCurrentMeterController',
-        'DiplomSite.model.CharacteristicGridModel'
+        'DiplomSite.productionview.lowcurrentmeter.LowCurrentMeterController'
     ],
     controller: 'lowCurrentMeterController',
 
     items: [
         {
-            xtype: 'image',
-            src: 'src/images/foto.png',
-            height: 250
+            xtype: 'container',
+            layout: {
+                type: 'hbox',
+                align: 'stretch',
+                pack: 'middle'
+            },
+            items: [
+                {
+                    xtype: 'image',
+                    src: 'src/images/foto.jpg',
+                    maxWidth: 700,
+                    height: 400
+                }
+            ]
         },
         {
             xtype: 'container',
             layout: {
-                type: 'hbox',
+                type: 'vbox',
                 align: 'stretch'
             },
             items: [
@@ -45,7 +55,7 @@ Ext.define('DiplomSite.productionview.lowcurrentmeter.LowCurrentMeterView', {
                 },
                 {
                     xtype: 'panel',
-                    title: 'Краткой описание прибора',
+                    title: 'Краткое описание прибора',
                     collapsible: true,
                     collapsed: true,
                     flex: 1,

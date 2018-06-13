@@ -8,7 +8,7 @@ Ext.define('DiplomSite.mainsiteview.MainInformationView', {
     items: [
         {
             xtype: 'label',
-            html: 'Раздел основной информации (в разработке...)',
+            html: 'Жду Илюху, чтобы запилить этот раздел',
         }
     ]
 });

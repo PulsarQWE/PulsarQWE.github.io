@@ -8,7 +8,6 @@ Ext.define('DiplomSite.mainsiteview.MainSiteView',{
         type: 'border',
         align: 'stretch'
     },
-    style: 'background-color: #00FFFF',
     requires: [
         'DiplomSite.productionpanel.ProductionPanel',
         'DiplomSite.mainsiteview.MainSiteViewController',

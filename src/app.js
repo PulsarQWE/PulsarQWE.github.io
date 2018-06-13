@@ -11,7 +11,6 @@ Ext.application({
     launch: function () {
         Ext.create('Ext.container.Viewport', {
             layout: 'fit',
-            style: 'background: #00FFFF',
             items: [
                 {
                     xtype: 'mainSiteView'

@@ -56,7 +56,7 @@ Ext.define('DiplomSite.productionview.lowcurrentmeter.LowCurrentMeterController'
 
     onPatent: function () {
         var window = Ext.create('Ext.window.Window', {
-            title: 'Усилитель малого тока',
+            title: 'Патент на полезную модель',
             height: 835,
             width: 610,
             bodyPadding: 10,
