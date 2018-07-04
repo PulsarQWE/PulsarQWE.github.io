@@ -11,9 +11,9 @@ if (!isset($_REQUEST)) {
 //Строка для подтверждения адреса сервера из настроек Callback API
 $confirmationToken = '004eec27';
 //Ключ доступа сообщества
-$token = 'Ваш ключ';
+$token = 'fa70332baa8acd82955d08df1ce73a9010851e3e3edabb8ae320ea21df961a9ac415a0682d5b024458a51';
 // Secret key
-$secretKey = 'testSecureKey';
+$secretKey = 'aagultyaevtestgrouptest';
 //Получаем и декодируем уведомление
 $data = json_decode(file_get_contents('php://input'));
 // проверяем secretKey
